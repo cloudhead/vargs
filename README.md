@@ -28,3 +28,7 @@ synopsis
         args.array;           // all arguments, including callback
     }
 
+example
+-------
+
+For a real-world example of *vargs*, check <http://github.com/cloudhead/cradle>
