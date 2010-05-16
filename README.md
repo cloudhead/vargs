@@ -12,7 +12,7 @@ JavaScript has very poor argument handling. *vargs* tries to make it simpler.
 synopsis
 --------
 
-    var Args = new("vargs").Constructor;
+    var Args = require("vargs").Constructor;
   
     function (/* [arg1, arg2, ...][,callback] */) {
         var args = new(Args)(arguments);
